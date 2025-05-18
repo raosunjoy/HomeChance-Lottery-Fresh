@@ -1,0 +1,23 @@
+{
+  "name": "homechance-backend",
+  "version": "1.0.0",
+  "description": "Fresh HomeChance Lottery Backend for Q3 2025 Florida Pilot",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.674.0",
+    "@solana/web3.js": "^1.98.2",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  },
+  "overrides": {
+    "glob": "10.4.5"
+  },
+  "packageManager": "yarn@4.9.1"
+}

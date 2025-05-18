@@ -1,0 +1,10 @@
+.env
+.DS_Store
+public/
+test.js
+debug-stripe.js
+sign.html
+sign1.html
+node_modules/
+.yarn/cache/
+
